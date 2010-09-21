@@ -2,7 +2,7 @@
 
 My strategy as a novice designer is to keep track of some rules of thumb to reduce the probability of making bad mistakes from lack of experience. If I'm careful enough, then I can often get to a point where just a little polish from an experienced designer is what it takes to get it from the 80% to the 100% mark.
 
-*  Keep a grid, always align to the vertical columns, but also strive to align to the horizontal rows if possible.
+*  Keep a grid, always align to the vertical columns, but also strive to align to the horizontal rows if possible. For web design, using a CSS framework will help with this. I like [Blueprint](http://www.blueprintcss.org/) but there are many others like [960](http://960.gs/) which is more to the point.
 *  Be consistent. This includes the chrome, grid, colors, button types (link vs form button vs div), etc.
 *  Err on the side of simplicity. Question the existence of specific elements, get rid of them if they're not absolutely necessary. You're better off having your users not know how to do one obscure task than to be overwhelmed and not do any of the simple common tasks.
 *  Blend colors (use [ColorBlendy](http://colorblendy.com/) or Photoshop equivalent) Colors on top of each other (think foreground/background) look more organic if they have an element of each other within them. I typically pick a background color (e.g. light blue like #abc) and a monochromatic foreground color (e.g. dark grey, #333) and multiply. This gives me the foreground color I should use with the light blue (ie. dark blue with a light blue).
