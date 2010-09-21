@@ -1,4 +1,4 @@
-# Rules of Thumb for Novice Designers (like myself)
+# Rules of thumb for novice designers (like myself)
 
 My strategy as a novice designer is to keep track of some rules of thumb to reduce the probability of making bad mistakes from lack of experience. If I'm careful enough, then I can often get to a point where just a little polish from an experienced designer is what it takes to get it from the 80% to the 100% mark.
 
