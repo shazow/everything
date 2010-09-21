@@ -15,6 +15,6 @@ It is possible to build a beautiful interface that is completely unusable, and i
 
 # Context
 
-This advice was given to @wolever as a strategy for mitigating the effects of lacking design experience when building a consumer application.
+I wrote this advice for @wolever as a strategy for mitigating the effects of lacking design experience when building a consumer application.
 
 I am a novice designer, but these guidelines have helped me reduce the designed-by-a-programmer effect.
