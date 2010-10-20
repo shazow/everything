@@ -65,7 +65,7 @@ Where the ``_data`` column would contain data like this:
 And perhaps we would build a framework on top of SQLAlchemy which would let us access columns as ``user.display_name`` or ``user.email`` regardless whether it's an extracted indexed property or a buried _data element.
 
 
-### Process
+### Process: Adding an index
 
 1. Build a table with just a free-structure ``_data`` field.
 2. Determine queries, extract relevant properties into indexed columns:
@@ -73,3 +73,11 @@ And perhaps we would build a framework on top of SQLAlchemy which would let us a
     2. Run full-scan query to populate new column with data
     3. Add relevant index onto said column
     4. Deprecate property from ``_data`` (optional, we could just assume that proper columns always supercede ``_data`` attributes)
+
+
+## Concerns
+
+* Adding an index may affect database performance during the process, due to the data locality. Compared to FriendFeed's approach, the indices are stored in their own tables which could even be sharded across databases, so this removes any performance concerns during schema transitions. On the other hand, FriendFeed's approach reduces data locality which increases the number of joins required to get desired data, and also reduces the semantic meaning of the tables thus making queries more complex.
+* Performing unexpected demographic analysis on large datasets would be much slower if the fields are stored in ``_data`` (such as age, gender, etc) since it would require a full table scan instead of an in-database aggregate query.
+* Parsing and storing the ``_data`` dictionary has some performance implications, too. cPickle is best for parsing performance, perhaps zlib-compressed cPickle is best for data size and parsing performance tradeoff, but no portability beyond Python. zlib-compressed JSON reduces data size and is portable across languages, but increases parsing time.
+* Tracking mutability is important, potentially hard to do elegantly.
