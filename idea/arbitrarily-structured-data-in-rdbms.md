@@ -2,6 +2,8 @@
 
 This approach is similar to [FriendFeed's schemaless database framework](http://bret.appspot.com/entry/how-friendfeed-uses-mysql). The key difference is in the data locality.
 
+The goal is *not* to build an effective schemaless database on top of a relational database, but rather to accomodate for rapidly-evolving relational schemas and reducing the difficult of migrating forward.
+
 ## Hypothesis
 
 In an evolving relational (SQL) database schema, we store two types of data: Data we will be querying against and data we will be displaying. There is often a subset of display data which will not be used for querying in the foreseeable future, and this is the data whose structure changes most often.
