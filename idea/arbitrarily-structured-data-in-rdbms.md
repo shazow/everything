@@ -34,8 +34,6 @@ A typical *user* table might have the following columns (using an SQLAlchemy dec
         password_hash = Column(types.String(40), nullable=False)
         password_salt = Column(types.String(8), nullable=False)
 
-(We could replace the primary_key ``id`` with the ``email`` column, but this is not important.)
-
 In our example, this table will have two types of queries:
 
     -- Load the user object from the current session (where we store the user_id)
