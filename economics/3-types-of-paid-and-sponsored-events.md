@@ -1,4 +1,4 @@
-# _Paid Events_ versus _Sponsored Events_, and the other one
+# Paid events versus sponsored events, and the other one
 
 ## 1. Entire event is paid by entry fees
 
