@@ -20,3 +20,4 @@ There are three types of events, relative to their funding.
 
 The hybrid is the worst of both worlds. I avoid these types of events.
 
+Once exception is when entry price and sponsorship is used as a barrier to entry. I don't have a sweeping opinion about these.
