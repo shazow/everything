@@ -1,4 +1,4 @@
-# Three types of paid and sponsored events
+# *Paid Events* versus *Sponsored Events*, and the other one
 
 ## 1. Entire event is paid by entry fees
 
