@@ -1,4 +1,4 @@
-# *Paid Events* versus *Sponsored Events*, and the other one
+# _Paid Events_ versus _Sponsored Events_, and the other one
 
 ## 1. Entire event is paid by entry fees
 
