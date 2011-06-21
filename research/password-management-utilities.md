@@ -35,7 +35,7 @@ Official client is Windows-based but has ports to all desktop platforms (Linux, 
 Very barebones, self contained binary, actively developed. (Via [@seanpiled](http://twitter.com/seanpiled))
 
 ### [pwsafe](http://passwordsafe.sourceforge.net/)
-Even more barebones, text-based, no browser integration. (via [@jpetazzo](http://twitter.com/jpetazzo))
+Even more barebones, text-based, no browser integration. (Via [@jpetazzo](http://twitter.com/jpetazzo))
 
 ### [SFLvault](https://projects.savoirfairelinux.com/projects/sflvault/wiki/)
-Somewhat unrelated but cool project, useful for sharing passwords between teams. (via [@jpetazzo](http://twitter.com/jpetazzo))
+Somewhat unrelated but cool project, useful for sharing passwords between teams. (Via [@jpetazzo](http://twitter.com/jpetazzo))
