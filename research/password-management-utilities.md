@@ -29,7 +29,7 @@ LastPass has a freemium pricing model. They support all desktop platforms (OSX, 
 ## Open Source
 
 ### [KeePass](http://keepass.info/)
-Official client is Windows-based but has ports to all desktop platforms (Linux, OSX, mobile). Self-contained binary and database, portable. Actively developed, has a healthy plugin community with extensions for major browsers. (Via [@colbett_inc](http://twitter.com/colbett_inc))
+Official client is Windows-based but has ports to all desktop platforms (Linux, OSX, mobile). Self-contained binary and database, portable. Actively developed, has a healthy plugin community with extensions for major browsers. (Via [@corbett_inc](http://twitter.com/corbett_inc))
 
 ### [Password Gorilla](https://github.com/zdia/gorilla)
 Very barebones, self contained binary, actively developed. (Via [@seanpiled](http://twitter.com/seanpiled))
