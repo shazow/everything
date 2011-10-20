@@ -2,13 +2,13 @@
 
 There are three types of events, relative to their funding.
 
-1. **Paid entirely by entry fees**
+1.  **Paid entirely by entry fees**
 
-   The event is organized to scale from bare-to-the-metal in proportion to how many people attend. These types of events are usually the most unique and clever in the way they provide value to the attendees.
+    The event is organized to scale from bare-to-the-metal in proportion to how many people attend. These types of events are usually the most unique and clever in the way they provide value to the attendees.
 
-2. **Paid entirely by sponsors**
+2.  **Paid entirely by sponsors**
 
-   Success in closing that much money means it's being driven by influential people with generous margins. The events include great perks, free food, and are run to high standards with great organization.
+    Success in closing that much money means it's being driven by influential people with generous margins. The events include great perks, free food, and are run to high standards with great organization.
 
 3. **Paid partially by sponsors, remainder paid by entry fees**
 
