@@ -20,6 +20,7 @@ The ``_data`` column contains a dictionary of arbitrary data serialized into JSO
 
 A typical *user* table might have the following columns (using an SQLAlchemy declarative model):
 
+    :::python
     class User(Model):
 
         id = Column(types.Integer, primary_key=True)
@@ -34,16 +35,20 @@ A typical *user* table might have the following columns (using an SQLAlchemy dec
         password_hash = Column(types.String(40), nullable=False)
         password_salt = Column(types.String(8), nullable=False)
 
+
 In our example, this table will have two types of queries:
 
+    :::sql
     -- Load the user object from the current session (where we store the user_id)
     SELECT * FROM user WHERE id = :user_id;
 
     -- Check the given password against the email address, for login
     SELECT password_hash, password_salt FROM user WHERE email = :user_email;
 
+
 In the schemaless model, the table would look like this:
 
+    :::python
     class User(SchemalessModel):
 
         id = Column(types.Integer, primary_key=True)
@@ -53,8 +58,10 @@ In the schemaless model, the table would look like this:
 
         email = Column(types.String(255), nullable=False, index=True, unique=True)
 
+
 Where the ``_data`` column would contain data like this:
 
+    :::javascript
     {
         'display_name': 'Andrey Petrov',
         'is_admin': 1,
@@ -67,8 +74,8 @@ And perhaps we would build a framework on top of SQLAlchemy which would let us a
 
 ### Process: Adding an index
 
-1. Build a table with just a free-structure ``_data`` field.
-2. Determine queries, extract relevant properties into indexed columns:
+1.  Build a table with just a free-structure ``_data`` field.
+2.  Determine queries, extract relevant properties into indexed columns:
     1. ALTER TABLE to add the column
     2. Run full-scan query to populate new column with data
     3. Add relevant index onto said column
