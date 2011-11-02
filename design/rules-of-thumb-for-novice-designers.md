@@ -13,10 +13,4 @@ My strategy as a novice designer is to keep track of some rules of thumb to redu
 
 It is possible to build a beautiful interface that is completely unusable, and it's possible to build an utilitarian and maybe unbeautiful interface which is very usable. I would aim to do the latter until you're ready to hire a designer. It's likely that the designer will have to rethink a lot of it from scratch as that's just part of the design process, but that's about as much as you can hope for.
 
-- - -
-
-## Context
-
-I wrote this advice for @wolever as a strategy for mitigating the effects of lacking design experience when building a consumer application.
-
-I am a novice designer, but these guidelines have helped me reduce the designed-by-a-programmer effect.
+These design guidelines have helped me reduce the designed-by-a-programmer effect when building consumer applications.
