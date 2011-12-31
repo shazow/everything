@@ -1,6 +1,6 @@
 # Considering job offers? A checklist in alphabetical order
 
-![Celebrating your job offer](http://getfile3.posterous.com/getfile/files.posterous.com/import-ealf/ybbBdyvxieqAfwjGjkxhdpCAfdJkHhtujGkCbbBiekbhGrJwskpFgEbstGAi/media_httpshazownetblogwpcontentuploads200903ballpitjpg_JJqsBybvgwtEkvF.jpg.scaled500.jpg)
+![Celebrating your job offer](http://shazow.net/images/blog/ballpit.jpg)
 
 Every offer you get will include some details and omit others. To perform a
 proper comparison between multiple offers and reach a good decision, you'll
