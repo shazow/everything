@@ -1,7 +1,7 @@
 # Blog posts I need to port to this repository
 
 * [Protip for ambitious engineers looking for a cool job: Forget job boards, talk to angel investors.](http://shazow.posterous.com/protip-for-ambitious-engineers-looking-for-a)
-* [Considering offers? A checklist in alphabetical order](http://shazow.net/blog/2009/03/07/considering-offers-a-checklist-in-alphabetical-order/)
+* ~~[Considering offers? A checklist in alphabetical order](http://shazow.net/blog/2009/03/07/considering-offers-a-checklist-in-alphabetical-order/)~~
 * [Circadian Somersault: 28 hour days for 1 week](http://shazow.net/blog/2009/02/02/circadian-somersault/)
 * [Invention: Pass-through multi-car elevators](http://shazow.net/blog/2008/10/05/passthrough-multicar-elevators/)
 * [Why I Love Linux](http://shazow.net/blog/2006/07/15/why-i-love-linux/), also [Part 2](http://shazow.net/blog/2007/10/11/linux-love-part-2/)
