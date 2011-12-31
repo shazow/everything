@@ -20,54 +20,55 @@ The ``_data`` column contains a dictionary of arbitrary data serialized into JSO
 
 A typical *user* table might have the following columns (using an SQLAlchemy declarative model):
 
-    :::python
-    class User(Model):
+```python
+class User(Model):
 
-        id = Column(types.Integer, primary_key=True)
-        time_created = Column(types.DateTime, default=datetime.now, nullable=False)
-        time_updated = Column(types.DateTime, onupdate=datetime.now)
+    id = Column(types.Integer, primary_key=True)
+    time_created = Column(types.DateTime, default=datetime.now, nullable=False)
+    time_updated = Column(types.DateTime, onupdate=datetime.now)
 
-        is_admin = Column(types.Boolean, default=False, nullable=False)
+    is_admin = Column(types.Boolean, default=False, nullable=False)
 
-        email = Column(types.String(255), nullable=False, index=True, unique=True)
-        display_name = Column(types.String(64))
+    email = Column(types.String(255), nullable=False, index=True, unique=True)
+    display_name = Column(types.String(64))
 
-        password_hash = Column(types.String(40), nullable=False)
-        password_salt = Column(types.String(8), nullable=False)
-
+    password_hash = Column(types.String(40), nullable=False)
+    password_salt = Column(types.String(8), nullable=False)
+```
 
 In our example, this table will have two types of queries:
 
-    :::sql
-    -- Load the user object from the current session (where we store the user_id)
-    SELECT * FROM user WHERE id = :user_id;
+```sql
+-- Load the user object from the current session (where we store the user_id)
+SELECT * FROM user WHERE id = :user_id;
 
-    -- Check the given password against the email address, for login
-    SELECT password_hash, password_salt FROM user WHERE email = :user_email;
-
+-- Check the given password against the email address, for login
+SELECT password_hash, password_salt FROM user WHERE email = :user_email;
+```
 
 In the schemaless model, the table would look like this:
 
-    :::python
-    class User(SchemalessModel):
+```python
+class User(SchemalessModel):
 
-        id = Column(types.Integer, primary_key=True)
-        time_created = Column(types.DateTime, default=datetime.now, nullable=False)
-        time_updated = Column(types.DateTime, onupdate=datetime.now)
-        _data = Column(types.JSON)
+    id = Column(types.Integer, primary_key=True)
+    time_created = Column(types.DateTime, default=datetime.now, nullable=False)
+    time_updated = Column(types.DateTime, onupdate=datetime.now)
+    _data = Column(types.JSON)
 
-        email = Column(types.String(255), nullable=False, index=True, unique=True)
-
+    email = Column(types.String(255), nullable=False, index=True, unique=True)
+```
 
 Where the ``_data`` column would contain data like this:
 
-    :::javascript
-    {
-        'display_name': 'Andrey Petrov',
-        'is_admin': 1,
-        'password_hash': 'cSKSsy315E4EroxeDQrsxjTb6ijBxxbK',
-        'password_salt': 'vS5Otm',
-    }
+```javascript
+{
+    'display_name': 'Andrey Petrov',
+    'is_admin': 1,
+    'password_hash': 'cSKSsy315E4EroxeDQrsxjTb6ijBxxbK',
+    'password_salt': 'vS5Otm',
+}
+```
 
 And perhaps we would build a framework on top of SQLAlchemy which would let us access columns as ``user.display_name`` or ``user.email`` regardless whether it's an extracted indexed property or a buried _data element.
 
