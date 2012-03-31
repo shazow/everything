@@ -63,10 +63,10 @@ Where the ``_data`` column would contain data like this:
 
 ```javascript
 {
-    'display_name': 'Andrey Petrov',
-    'is_admin': 1,
-    'password_hash': 'cSKSsy315E4EroxeDQrsxjTb6ijBxxbK',
-    'password_salt': 'vS5Otm',
+    "display_name": "Andrey Petrov",
+    "is_admin": 1,
+    "password_hash": "cSKSsy315E4EroxeDQrsxjTb6ijBxxbK",
+    "password_salt": "vS5Otm",
 }
 ```
 
