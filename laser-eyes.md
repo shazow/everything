@@ -216,16 +216,16 @@ is no different. As long as you've found who you're confident is one of the
 best specialists for your procedure, there are often a few levers to pull to
 get the best price.
 
-#. **Competing offers and seasonal discounts.** If you get a better deal from a
+1. **Competing offers and seasonal discounts.** If you get a better deal from a
    facility that they respect, you might get a discount. This is not unlikely
    because these places hold various discounts throughout the year to keep their
    patient flow up during off-seasons.
 
-#. **Health insurance.** Your health insurance probably won't cover this
+2. **Health insurance.** Your health insurance probably won't cover this
    procedure, but sometimes you can get a discount as a consolation price. "Can I
    get a discount for being covered by $PROVIDER?"
 
-#. **Cash.** Once you get the best price you think you can, try to shave off
+3. **Cash.** Once you get the best price you think you can, try to shave off
    that final 2-4% by offering to pay in cash. That's probably $100, nothing to
    sneeze at.
 
