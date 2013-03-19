@@ -37,42 +37,46 @@ My calendar for today:
 
 ### December 7, 2012
 
-_1:15pm_ Pulled up to Dr. Furlong's facility in northern San Jose, CA. The
-friendly staff blazed through all the paperwork I've had a week to pre-read and
-initiated the signing-athon.
+_1:15pm_ We pull in to Dr. Furlong's facility in northern San Jose, CA. The
+friendly staff blaze through all the paperwork I've had a week to pre-read, and
+we begin the signing-athon.
 
 "I understand that there is no guarantee of perfect vision" — check. "I
 understand that this is an elective surgery and there is no health reason to
 require this surgery" — check. "I am here for laser eye corrective surgery" —
 indeed.
 
-I pulled out my envelope holding a wad of $4,900 in cash that we agreed on
+I reveal my envelope holding a wad of $4,900 in cash that we agreed on
 earlier. "Would you like to take a mild sedative that will help you stay
-relaxed during the surgery and sleep after?" I accepted the tiny sweet pill and
-held it under my tongue while it slowly dissolved.
+relaxed during the surgery and sleep after?" I accept the tiny sweet pill and
+hold it under my tongue while it slowly dissolves.
 
-The receptionist led Tracy and me over to the *other* waiting area, where we
-continued to wait for another few minutes. "No wifi or cellphones" sign here,
-and the walls look like they're leaded just in case.
+The receptionist leads Tracy and me over to the *other* waiting area, where we
+continue to wait for more minutes. The "No wifi or cellphones" sign draws
+attention to the thickened walls, probably leaded just in case. One of the
+technicians enters to take me in for "prep".
 
-One of the technicians came over to take me in for preparation. I sat down in
-yet another room, she turned on some pop music on a little boom box and prepared
-a concoction of eye drops. Anti-biotics, numbing, lubricants. She cleaned and
-disinfected my eyes and again we waited for a few minutes, listening to the
-cheerful music as the sedative started to take effect. My thinking fogged,
-decisions became short-sighted, breathing slowed.
+I'm seated in yet another room as the technician turns on a little boom box
+dedicated to cheesy pop music. She prepares a eyedrops concoction of
+anti-biotics, numbing, and lubricants. After cleaning and disinfecting my
+eyes, we sit back and wait and listen to the cheerful music while the sedative
+starts to take effect. My thinking begins to fog, decisions become
+short-sighted, and my breathing is noticeably calmed. I make note of my
+changing internal state while anticipating the next room.
 
-Finally we walked into the operating room. Spacious, with various utensils and
-machinery on the periphery, surrounding the centerpoint that is *the chair* which
-pivots between two laser machines. One machine makes the flap followed by the
-other which performs the prescribed correction.
+Finally, it's time. We walk through the unassuming door into the operating
+room. Spacious, with numerous utensils and machinery on the periphery,
+surrounding the centerpiece that is *the chair*. The chair is hospital-green
+leather, installed to recline and swivel between two laser machines. One
+machine makes the flap followed by the other which performs the prescribed
+correction.
 
-Suddenly imagery of my childhood come rushing in. Watching X-Files, alien
+Suddenly imagery of my childhood rushes in. Watching X-Files, alien
 abductions, brainwashing. When I was a kid, I thought brainwashing was the
 process of severing your scalp and immersing your brain in a special fluid. I
 imagined it:
 
-"Anesthetic is applied, followed by pressure on the tip of the head as it's
+> "Anesthetic is applied, followed by pressure on the tip of the head as it's
 pulled into place with suction. You don't feel much but you know the top of the
 head is being sliced open, scalp peeled back, revealing the brain. It's
 floating peacefully in your head's natural cerebrospinal fluid until
@@ -81,30 +85,29 @@ instruments. Adjusting and correcting the physical matter of your parietal lobe
 while drowning the organ over with supplemental fluids to keep it lubricated and
 responsive. Results are verified and the scalp is replaced."
 
-Creepy.
+Creepy. Through the experience I was amused at how familiar it all felt to my bizarre
+science fiction imagery, except applied to my eyes.
 
-This bizarre science fiction imagery felt all too familiar, but applied to my
-eyes.
+~~~
 
+"Before we get started, another quick eye check and I'm going to place some
+marks on your eyes to help the tracker," another technician leads me to another
+chin rest. As with every other eye instrument, I fit my chin and forehead into
+the frame and look straight ahead. The numbing eyedrops are well in
+effect by now so I felt nothing as the man gently poked my eye
+with some kind of marker, once on either side of the retina.
 
-Before we get started, another quick eye check "and I'm going to place some
-marks on your eyes to help the tracker." As with every other eye instrument, I
-placed my chin and forehead in the holders and looked straight ahead. The
-numbing eye drops were well in effect at this point so I felt nothing as the
-technician gently poked my eye with some kind of marker—once on either side of
-the retina.
+All ready, off to *the chair*. I slide onto it and positioned my head to be in
+range of the pivoting radius. My neck feels cradled and comfortable. More numbing
+eyedrops wash over my eyes and my left eye is taped shut. I lay here
+waiting for Dr. Furlong for a few minutes as he wraps up with his previous
+patient. I hear subtle chatter as I stare towards the ceiling with one eye.
 
-All ready, off to *the chair*. I slid onto it and positioned my head to be in
-range of the pivoting radius. My neck felt cradled and comfortable. More numbing
-eye drops washed over my eyes and my left eye was taped shut. I laid here
-waiting for Dr. Furlong for a few minutes as he wrapped up with his previous
-patient.
-
-A familiar voice walked through the door and re-introduced himself. Dr. Furlong
-confirmed that I'm here to get laser eye surgery and what kind—as if I would
+A familiar voice walks through the door and re-introduces himself. Dr. Furlong
+confirm that I'm here to get laser eye surgery and which kind-as if I would
 remember the subtle differences between the various generations of laser
 technology, CustomVue, Visx, WaveFront, something something something—"I
-guess," I responded after a pregnant pause. Smiles all around, we proceeded.
+guess," I respond after a pregnant pause. Smiles all around, we proceed.
 "We're going to clamp your eyelids open. You have a very strong blink reflex,
 and while it's easier said than done, try to give into it the clamp as much as
 you can or else your eyelids are going to be extra sore tomorrow from fighting
@@ -113,7 +116,7 @@ it's easy to get distracted from them being there with everything else that
 goes on.
 
 At every step, Dr. Furlong talks through what's happening, what will happen
-next, and what to expect. None of the discomfort was a surprise—I appreciated
+next, and what to expect. None of the discomfort was a surprise—I appreciate
 this.
 
 After the clamps comes the suction, but no sooner than another slew of eyedrops.
@@ -123,7 +126,7 @@ process because the suction creates a lot of pressure on the eye, briefly
 bordering on pain, but simultaneously distracted by the complete loss of
 vision. It didn't feel so much as a fundamental loss of vision but more that my
 vision was obstructed, like when you close your eyes. With everything in place,
-I was swivled under the flap-creating laser and was told to try to stare at the
+I'm swivled under the flap-creating laser and told to try to stare at the
 subtle blinking orange light—the only thing I could see among my otherwise
 absence of vision.
 
@@ -131,26 +134,27 @@ The laser sounds like an old DOT MATRIX printer. Tra-dat-dat-dat-dat-dat-dat.
 Within just a few seconds, maybe fifteen, it's done. I'm rotated slightly, the
 suction is removed and my watery vision returns. I'm sure more drops were
 applied as Dr. Furlong peeled back the flap of my cornea. You'd think this
-would be the worst part, but it was bizarrely interesting. It took maybe 30-45
-seconds to get the flap fully opened and immediately my vision changed to a
-complete blur. Fascinating.
+would be the worst part, but it's bizarrely interesting. It takes maybe 30-45
+seconds to get the flap fully open which immediately changes my vision to a
+complete blur. Painless and too fascinating to delve on how creepy this is.
 
-I think the suction thing was reapplied and I'm swiveled a few inches over to
+I feel like the suction is reapplied and I'm swiveled a few inches over to
 the corrective laser, again told to track the light. Ready?
 Tra-dat-dat-dat-dat-dat-dat. This is when you start smelling your flesh burning
 a bit—not a huge deal if you've ever had a root canal, or partook
 autocannibalism I suppose. With each laser burst, the peripheral of my vision
-started glowing in an emphereal light blue, lighter each time. Not sure what
-caused this effect, but it was like an unearthly aurora borealis inside my own
-eye. Within 25 seconds, it was over. "You did great!"
+glows in an emphereal light blue, lighter each time. Not sure what
+causes this effect, but it's like an unearthly aurora borealis inside my own
+eye. Within 25 seconds, it's over. "You did great!"
 
-The pressure on my eye was released and the flap was peeled back into the
-covering position, this took another half minute and ample eyedrops.
+The pressure on my eye is released and the flap carefully peeled back into the
+covering position, this takes another half minute and ample eyedrops.
 
-"You can gently close your eye now," I complied and my freshly lasered eye was
-taped shut. Time for the other eye. Unsurprisingly, process for the left eye was
-essentially identical. (Fast forward a few minutes.)
+"You can gently close your eye now," I comply and my freshly lasered eye is
+taped shut. Time for the other eye. Unsurprisingly, process for the left eye
+was essentially identical. (Fast forward a few minutes.)
 
+~~~
 
 "You can sit up now." My legs dangle off *the chair* as I'm offered a kids
 juice to help ward off dizziness, primarily from anxiety. I can already see,
@@ -167,29 +171,29 @@ eyedrops wear off. This was an understatement.
 
 Tracy and I nod, pack up the supplies, and head home.
 
-I was pretty chipper on the walk back to the car—I could basically see already,
-but my mood quickly changed as the sun was blaring through the window while we
-drove home. Like a creature of the night, I hissed and tried to hide from it,
-but the scratchy pain and burning kept growing as the car turned to reveal new
-beams of light. Unsure of whether it was the light or just the numbing wearing
-off or both, I wanted to get home and hide in a very dark room as quickly as
-possible.
+I'm pretty chipper on the walk back to the car—I could basically see already,
+but my mood quickly changes as the sun starts blaring through the car window
+while we drive home. Like a creature of the night, I hiss and try to hide
+from the light, but the scratchy pain and burning keep growing with each beam
+of light revealed while Tracy navigates the car towards home. Unsure of whether
+it's the light or just the numbing wearing off or both, I want to get home and
+hide in a very dark room as soon as possible.
 
-...
+~~~
 
-The next hour or two sucked the most, worse than the surgery itself. I took two
-tylenol, which I should have done earlier. Later I applied the numbing eyedrops,
-which I also should have done earlier. Both of these things helped. I applied
-the numbing drops one more time later, but I should have applied them more.
+The next hour or two suck the most, worse than the surgery itself. I take two
+tylenol, which I should have done earlier. Later, I apply the numbing eyedrops
+I was given, which I also should have done earlier too. Both of these things
+help. I apply the numbing drops just once more after another hour, but I should have
+applied them more frequently in retrospect.
 
-Eventually I was able to fall asleep, and by the time three hours passed, I was
-pain-free. My eyes still felt swollen and achey, but it was much more
+Eventually I was able to fall asleep, and by the time three hours pass, I find
+myself pain-free. My eyes still feel swollen and achey, but it's much more
 manageable.
 
-After waking up, I was bored but was instructed to keep my eyes mostly closed
-for the rest of the night. So here I am, sitting in the dark, writing the first
-draft of this post, with my eyes closed.
-
+After waking up, I'm greeted with boredom but I was instructed to keep my eyes
+mostly closed for the rest of the night. So here I am, sitting in the dark,
+writing the first draft of this post, with my eyes closed.
 
 
 ## Back to business
@@ -233,3 +237,23 @@ Remember, you're not negotiating what technology the doctor recommended or the
 quality of service. Some doctors may offer an older technology for a discount
 but a downgrade is not worth it unless you're seriously strapped for cash and
 can't wait any longer.
+
+
+## Four months later
+
+**Is it worth it?** Absolutely.
+
+Today my eye sight is almost 20/15 and I'm down to ~3 lubricating eyedrops per
+day. Halos are not an issue anymore, though I'm still a little sensitive to
+light, like sunny days or oncoming traffic at night. Nothing intolerable and
+wearing sunglasses is much more enjoyable than corrective glasses.  Overall, it
+feels like a significant source of stress from my life has been removed.
+
+The procedure itself was *creepy*, but not painful or even that scary. I admit I
+was quite phobic about the whole flap thing, but after having gone through it I
+feel it wasn't anywhere as bad as I feared. I would not dread to undergo this
+procedure again if I needed to.
+
+**Should you get LASIK?** If you at all mind wearing glasses or contacts, and you
+can afford the pricetag, I highly recommend it. Especially if your prescription
+is reasonably weak, then there is much lower risk of needing a second touchup.
