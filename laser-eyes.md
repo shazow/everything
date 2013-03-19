@@ -246,13 +246,14 @@ can't wait any longer.
 Today my eye sight is almost 20/15 and I'm down to ~3 lubricating eyedrops per
 day. Halos are not an issue anymore, though I'm still a little sensitive to
 light, like sunny days or oncoming traffic at night. Nothing intolerable and
-wearing sunglasses is much more enjoyable than corrective glasses.  Overall, it
+wearing sunglasses is much more enjoyable than corrective glasses. Overall, it
 feels like a significant source of stress from my life has been removed.
 
 The procedure itself was *creepy*, but not painful or even that scary. I admit I
 was quite phobic about the whole flap thing, but after having gone through it I
-feel it wasn't anywhere as bad as I feared. I would not dread to undergo this
-procedure again if I needed to.
+feel it wasn't anywhere as bad as I feared. And after the first couple of
+hours, the recovery was a breeze­just don't stinge on the numbing drops like I
+did.
 
 **Should you get LASIK?** If you at all mind wearing glasses or contacts, and you
 can afford the pricetag, I highly recommend it. Especially if your prescription
