@@ -88,7 +88,7 @@ responsive. Results are verified and the scalp is replaced."
 Creepy. Through the experience I was amused at how familiar it all felt to my bizarre
 science fiction imagery, except applied to my eyes.
 
-~~~
+~
 
 "Before we get started, another quick eye check and I'm going to place some
 marks on your eyes to help the tracker," another technician leads me to another
@@ -154,7 +154,7 @@ covering position, this takes another half minute and ample eyedrops.
 taped shut. Time for the other eye. Unsurprisingly, process for the left eye
 was essentially identical. (Fast forward a few minutes.)
 
-~~~
+~
 
 "You can sit up now." My legs dangle off *the chair* as I'm offered a kids
 juice to help ward off dizziness, primarily from anxiety. I can already see,
@@ -179,7 +179,7 @@ of light revealed while Tracy navigates the car towards home. Unsure of whether
 it's the light or just the numbing wearing off or both, I want to get home and
 hide in a very dark room as soon as possible.
 
-~~~
+~
 
 The next hour or two suck the most, worse than the surgery itself. I take two
 tylenol, which I should have done earlier. Later, I apply the numbing eyedrops
