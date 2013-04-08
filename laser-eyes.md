@@ -26,7 +26,7 @@ stress in my life.
 
 ### December 6, 2012
 
-My calendar for today:
+My agenda for today:
 
 * _9:45am_ Eyedrops
 * _1:25pm_ Eyedrops
