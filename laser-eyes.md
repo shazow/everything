@@ -5,7 +5,7 @@
 
 ## My first pair of glasses
 
-I donned my first pair of glasses at the age of fifteen. I could see well
+My first vision correction was prescribed to me at the age of fifteen. I could see well
 enough to get around, with great effort and strain. By the time I got home from
 school, I had to take a long nap just to make it through the rest of the day.
 My eyes were exhausted and glasses fixed all that.
