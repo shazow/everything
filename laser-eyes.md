@@ -138,7 +138,7 @@ would be the worst part, but it's bizarrely interesting. It takes maybe 30-45
 seconds to get the flap fully open which immediately changes my vision to a
 complete blur. Painless and too fascinating to delve on how creepy this is.
 
-I feel like the suction is reapplied and I'm swiveled a few inches over to
+Suction is reapplied and I'm swiveled a few inches over to
 the corrective laser, again told to track the light. Ready?
 Tra-dat-dat-dat-dat-dat-dat. This is when you start smelling your flesh burning
 a bit—not a huge deal if you've ever had a root canal, or partook
