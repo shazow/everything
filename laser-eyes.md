@@ -5,7 +5,7 @@
 
 ## My first pair of glasses
 
-I donned my first pair of glasses at the age of fifteen. I could see well
+My first vision correction was prescribed to me at the age of fifteen. I could see well
 enough to get around, with great effort and strain. By the time I got home from
 school, I had to take a long nap just to make it through the rest of the day.
 My eyes were exhausted and glasses fixed all that.
@@ -26,7 +26,7 @@ stress in my life.
 
 ### December 6, 2012
 
-My calendar for today:
+My agenda for today:
 
 * _9:45am_ Eyedrops
 * _1:25pm_ Eyedrops
@@ -138,7 +138,7 @@ would be the worst part, but it's bizarrely interesting. It takes maybe 30-45
 seconds to get the flap fully open which immediately changes my vision to a
 complete blur. Painless and too fascinating to delve on how creepy this is.
 
-I feel like the suction is reapplied and I'm swiveled a few inches over to
+Suction is reapplied and I'm swiveled a few inches over to
 the corrective laser, again told to track the light. Ready?
 Tra-dat-dat-dat-dat-dat-dat. This is when you start smelling your flesh burning
 a bit—not a huge deal if you've ever had a root canal, or partook
@@ -194,49 +194,6 @@ manageable.
 After waking up, I'm greeted with boredom but I was instructed to keep my eyes
 mostly closed for the rest of the night. So here I am, sitting in the dark,
 writing the first draft of this post, with my eyes closed.
-
-
-## Back to business
-
-How do you find the best vision correction specialist in your area? You do want
-the best for your eyes, don't you?
-
-Turns out, a lot of people have had LASIK. Many of them have written about this
-very unique experience. Ask your friends, ask your optometrist, read [some blog
-posts](http://dweekly.wordpress.com/2010/03/22/lasik-experience-intralase-wavefront/),
-check Quora, whatever. Once you get one or two decent facilities to check out,
-make a free consultation appointment. This is a great opportunity to ask a
-specialist what he or she thinks about other specialists. Many of them know and
-respect each other. If a name doesn't ring a bell, consider it a red flag.
-
-Most reputable places will offer all the same perks. Unlimited free corrections
-if the procedure is not successful, free followup exams, etc.
-
-
-## Negotiation
-
-Everything is negotiable, and the price of a life-changing surgical operation
-is no different. As long as you've found who you're confident is one of the
-best specialists for your procedure, there are often a few levers to pull to
-get the best price.
-
-1. **Competing offers and seasonal discounts.** If you get a better deal from a
-   facility that they respect, you might get a discount. This is not unlikely
-   because these places hold various discounts throughout the year to keep their
-   patient flow up during off-seasons.
-
-2. **Health insurance.** Your health insurance probably won't cover this
-   procedure, but sometimes you can get a discount as a consolation price. "Can I
-   get a discount for being covered by $PROVIDER?"
-
-3. **Cash.** Once you get the best price you think you can, try to shave off
-   that final 2-4% by offering to pay in cash. That's probably $100, nothing to
-   sneeze at.
-
-Remember, you're not negotiating what technology the doctor recommended or the
-quality of service. Some doctors may offer an older technology for a discount
-but a downgrade is not worth it unless you're seriously strapped for cash and
-can't wait any longer.
 
 
 ## Four months later
