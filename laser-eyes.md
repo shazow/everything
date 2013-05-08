@@ -39,8 +39,9 @@ My agenda for today:
 * _9:00pm_ Eyedrops
 * _10:00pm_ Wipe my eyelids before bed
 
-I recruit Tracy to be my ride and moral support. After much research and
-preparation, it's not hard to avoid thinking about the details of tomorrow.
+I recruit Tracy to be my ride and provider of moral support. After much
+research and preparation, it's not hard to avoid thinking about the details of
+tomorrow.
 
 
 ### December 7, 2012
