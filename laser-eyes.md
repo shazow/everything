@@ -95,7 +95,7 @@ marks on your eyes to help the tracker," another technician leads me to another
 chin rest. As with every other eye instrument, I fit my chin and forehead into
 the frame and look straight ahead. The numbing eyedrops are well in
 effect by now so I felt nothing as the man gently poked my eye
-with some kind of marker, once on either side of the retina.
+with some kind of marker, once on either side of the iris.
 
 All ready, off to *the chair*. I slide onto it and positioned my head to be in
 range of the pivoting radius. My neck feels cradled and comfortable. More numbing
@@ -120,7 +120,7 @@ next, and what to expect. None of the discomfort was a surprise—I appreciate
 this.
 
 After the clamps comes the suction, but no sooner than another slew of eyedrops.
-They place a tube-feeling thing around the retina which creates suction until
+They place a tube-feeling thing around the iris which creates suction until
 your vision blanks out. This was possibly the most uncomfortable part of the
 process because the suction creates a lot of pressure on the eye, briefly
 bordering on pain, but simultaneously distracted by the complete loss of
@@ -143,7 +143,7 @@ the corrective laser, again told to track the light. Ready?
 Tra-dat-dat-dat-dat-dat-dat. This is when you start smelling your flesh burning
 a bit—not a huge deal if you've ever had a root canal, or partook
 autocannibalism I suppose. With each laser burst, the peripheral of my vision
-glows in an emphereal light blue, lighter each time. Not sure what
+glows in an ethereal light blue, lighter each time. Not sure what
 causes this effect, but it's like an unearthly aurora borealis inside my own
 eye. Within 25 seconds, it's over. "You did great!"
 
