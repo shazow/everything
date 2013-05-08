@@ -94,8 +94,8 @@ instruments. Adjusting and correcting the physical matter of your parietal lobe
 while drowning the organ over with supplemental fluids to keep it lubricated and
 responsive. Results are verified and the scalp is replaced."
 
-Creepy. Through the experience I was amused at how familiar it all felt to my bizarre
-science fiction imagery, except applied to my eyes.
+Creepy. During my experience I was amused at how familiar it all felt to my
+bizarre science fiction imagery, but instead applied to my eyes.
 
 ---
 
