@@ -2,20 +2,26 @@
 
 "What was it like?" More than anything else, it was creepy.
 
+![Happy ending](laser-eyes.0.jpg)
+![Happy ending](laser-eyes.1.jpg)
 
-## My first pair of glasses
+... But worth it.
 
-My first vision correction was prescribed to me at the age of fifteen. I could see well
-enough to get around, with great effort and strain. By the time I got home from
-school, I had to take a long nap just to make it through the rest of the day.
-My eyes were exhausted and glasses fixed all that.
+
+## Bespectacled
+
+My first vision correction was prescribed in the midst of my high school years.
+I could see well enough to get around but with great effort and strain. By the
+time I got home from school, I had to take a long nap just to make it through
+the rest of the day. My eyes were exhausted and glasses fixed all that.
 
 More than a decade later, I was ready to do almost anything to stop obsessively
-wiping the lenses of my glasses. Every tiny speck or smudge was perfectly
-obtruding under my light but necessary prescription. Thin contact lenses were
-more comfortable but didn't correct for my astigmatism which left my eyes
-exhausted. Toric contacts were somewhat closer but the clarity would get
-disturbed by each blink which shifts the orientation of the lens.
+wiping the lenses of my glasses. Every tiny speck or smudge was loudly
+obtruding my attention, despite my my light-yet-necessary correct. Thin
+contact lenses were more comfortable but didn't correct for my astigmatism
+which left my eyes exhausted. Toric contacts were somewhat closer but the
+clarity would get disturbed by each blink which shifts the orientation of the
+lens.
 
 While I grew to appreciate a fashionable frame of glasses, several thousand
 dollars seemed like a small price to pay to eliminate a constant source of
@@ -88,7 +94,7 @@ responsive. Results are verified and the scalp is replaced."
 Creepy. Through the experience I was amused at how familiar it all felt to my bizarre
 science fiction imagery, except applied to my eyes.
 
-~
+---
 
 "Before we get started, another quick eye check and I'm going to place some
 marks on your eyes to help the tracker," another technician leads me to another
@@ -154,7 +160,7 @@ covering position, this takes another half minute and ample eyedrops.
 taped shut. Time for the other eye. Unsurprisingly, process for the left eye
 was essentially identical. (Fast forward a few minutes.)
 
-~
+---
 
 "You can sit up now." My legs dangle off *the chair* as I'm offered a kids
 juice to help ward off dizziness, primarily from anxiety. I can already see,
@@ -179,7 +185,7 @@ of light revealed while Tracy navigates the car towards home. Unsure of whether
 it's the light or just the numbing wearing off or both, I want to get home and
 hide in a very dark room as soon as possible.
 
-~
+---
 
 The next hour or two suck the most, worse than the surgery itself. I take two
 tylenol, which I should have done earlier. Later, I apply the numbing eyedrops
@@ -198,7 +204,7 @@ writing the first draft of this post, with my eyes closed.
 
 ## Four months later
 
-**Is it worth it?** Absolutely.
+"Was it worth it?" Absolutely.
 
 Today my eye sight is almost 20/15 and I'm down to ~3 lubricating eyedrops per
 day. Halos are not an issue anymore, though I'm still a little sensitive to
@@ -209,9 +215,9 @@ feels like a significant source of stress from my life has been removed.
 The procedure itself was *creepy*, but not painful or even that scary. I admit I
 was quite phobic about the whole flap thing, but after having gone through it I
 feel it wasn't anywhere as bad as I feared. And after the first couple of
-hours, the recovery was a breeze­just don't stinge on the numbing drops like I
+hours, the recovery was a breeze--just don't stinge on the numbing drops like I
 did.
 
-**Should you get LASIK?** If you at all mind wearing glasses or contacts, and you
+"Should I get LASIK?" If you mind wearing glasses or contacts, and you
 can afford the pricetag, I highly recommend it. Especially if your prescription
 is reasonably weak, then there is much lower risk of needing a second touchup.
