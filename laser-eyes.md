@@ -2,8 +2,7 @@
 
 "What was it like?" More than anything else, it was creepy.
 
-![Happy ending](laser-eyes.0.jpg)
-![Happy ending](laser-eyes.1.jpg)
+![On the way home](https://github.com/shazow/everything/raw/master/laser-eyes.0.jpg) &nbsp; ![Happy ending](https://github.com/shazow/everything/raw/master/laser-eyes.1.jpg)
 
 ... But worth it.
 
