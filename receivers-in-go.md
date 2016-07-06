@@ -30,19 +30,20 @@ Every time I start writing somekind of server, it starts out looking like this.
 It's a type that holds information about our server, like a `net.Listener` 
 socket, and it has a `Close()` method that shuts down the server. Easy enough.
 
-The *receiver* of the `Close()` method is the `(s *Server)` part. This says that 
-inside of the `Close()` method declaration, the scope will have an `s` variable 
-that is a reference to the instance of the `Server` that it's being called on.  
-That is:
+The *receiver* of the `Close()` method is the `(srv *Server)` part. This says 
+that inside of the `Close()` method declaration, the scope will have an `s` 
+variable that is a reference to the instance of the `Server` that it's being 
+called on.  That is:
 
 ```go
 myServer := &Server{}
 myServer.Close()
 ```
 
-In this case, the `s` that is referenced inside of the `myserver.Close()` is 
-effectively the same variable as `myserver`. They're both references to the same 
+In this case, the `s` that is referenced inside of the `myServer.Close()` is 
+effectively the same variable as `myServer`. They're both references to the same 
 `Server` instance.
+
 
 ## Naming the receiver
 
@@ -64,6 +65,7 @@ methods could use the same receiver. Any time we see `this` in the code, we'll
 *know* that we're talking about the receiver, not some random local variable. It 
 will be GREAT!.. or will it?
 
+
 ## Facts about methods and receivers
 
 While we can call a method on a type instance and get the receiver implicitly, 
@@ -80,7 +82,7 @@ with the implicit receiver or without:
 
 ```go
 withReceiver := myServer.Name
-without := myServer.Name
+without := Server.Name
 ```
 
 Receivers can be passed by reference or passed by value.
@@ -90,51 +92,24 @@ func (byValue Server) Hello() { ... }
 func (byReference *Server) Bye() { ... }
 ```
 
-## How are structs born?
+This is to illustrate that struct methods in Go are merely thin sugar over 
+traditional C-style struct helper declarations, an equivalent C method might 
+look like this:
 
-Taking a step back for a moment, let's look at how we end up with a struct like 
-`Server`. Probably, we wrote some code like this:
-
-```go
-clients = []net.Conn{}
-srv, err := net.Listen("tcp", ":2000")
-if err != nil { ... }
-
-for {
-    conn, err := srv.Accept()
-    if err != nil { ... }
-
-    clients = append(clients, conn)
-    for c := range clients {
-        // Do something interesting, like send the latest client manifest to 
-        // everyone
-    }
-}
-
-srv.Close()
+```c
+void server_close(server *srv) { ... }
 ```
 
-We start a listener server that accepts connections, keeps a list of clients, 
-and does something per new client. Soon, we want to expand the logic around what 
-happens every time a new client joins, maybe add helpers for adding and removing 
-clients. Also would be great to control the state of the server from outside of 
-itself--maybe force-close it from another goroutine.
+Go helps by namespacing the methods and implicitly passing the receiver when 
+called on an instance, but otherwise there is very little magic going on.
 
-Quickly it becomes clear that we want to something like this instead:
-
-```go
-srv, err := StartServer(":2000")
-if err != nil { ... }
-
-// Somewhere else:
-srv.Close()
-```
-
-All the pieces of looping over new connections, keeping track of them, doing 
-something relative to the state of the server, keeping internal goroutines safe 
-from each other--it should be embedded in a container that we can control from 
-the outside.
-
+In other languages where `this` and `self` is a thing (Python, Ruby, JavaScript, 
+and so on) it's a much more complicated situation. These are not vanilla local 
+variables wearing fancy pants. The thing we might expect `this` to represent 
+inside of a method could actually represent something very different once 
+inheretance or metaclasses had their way. In effect, it might not make any sense 
+to give contextual names to `self` in Python, but it definitely makes sense in 
+Go.
 
 ## Reshaping our code
 
@@ -223,5 +198,60 @@ represents? A scary thought.
 
 
 ## Advanced naming technique
+
+If we agree that contextually named receivers are meaningful, then maybe we can 
+utilize this opportunity for an even greater advantage.
+
+What if we named our receivers based on the interface that they're implementing 
+(if any)? Let's say we add `io.Writer` and `io.Reader` interfaces to our Server:
+
+```go
+func (w *Server) Write(p []byte) (n int, err error) {
+    // Send p to all clients
+}
+
+func (r *Server) Read(p []byte) (n int, err error) {
+    // Receive data from all clients
+}
+```
+Maybe we also want to add the `http.Handler` interface to provide a dashboard 
+for our server.
+
+```go
+func (handler *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+    // Render dashboard
+}
+```
+
+There are a few benefits to doing it this way:
+
+The receivers enhance the self-documenting nature of our code. It becomes 
+clearer which interface each method is attempting to implement.
+
+If we were implementing these wrappers outside of the `Server` struct, we would 
+likely be using similarly named variabls for intermediate code. By naming the 
+receiver in a corresponding way, it makes it easier to move the code inline 
+without changing much.
+
+Further, as we add interface-specific functionality, it's likely that we'll need 
+to add more fields to our struct to manage various related state. The code can 
+look more meaningful when a read buffer is being accessed from a `r` receiver to 
+imply that its purpose is specifically for this functionality rather than it 
+being a more general buffer for the server as a whole.
+
+
+## Name of the Receiver
+
+Carefully naming our receivers can have lots of tangible benefits, especially as 
+our project grows and code gets moved around. It can make our inner method code 
+much more readable without needing to be aware of which struct it's embedded 
+into. It can even add an opportunity to indicate higher-level layout of our 
+struct's interface implementation.
+
+Picking a fixed name for all receivers like `self` can have negative effects 
+like mixing up context when code gets moved around. It removes a decision during 
+writing, but the cost creeps up when we go back to read the code or refactor it.
+
+Go forth and give your receivers the names they deserve.
 
 
