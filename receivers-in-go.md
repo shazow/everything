@@ -82,7 +82,7 @@ it can also be called explicitly:
 ```go
 myServer := &Server{}
 Server.Name(myServer) // same as myServer.Name()
-(*Server).Close(&myServer)
+(*Server).Close(&myServer) // same as myServer.Close()
 ```
 
 These functions can be passed around as references just like any other function, 
