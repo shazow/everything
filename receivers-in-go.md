@@ -125,20 +125,14 @@ as before? And are we giving up valuable semantic meaning?
 
 ### Reshaping our code
 
-As we start refactoring our code, we take a chunk of code that is already 
-functional and put it in another context where it allows for more flexibility 
-towards a higher-level goal.
+Eventually we'll need to refactor some of our code: Take a chunk of code that is 
+already functional and put it in another context where it allows for more 
+flexibility towards a higher-level goal.
 
-The first step of taking flat code and embedding it into a struct method is 
-usually fine regardless of what the receiver is named. At least in the 
-beginning.
-
-Later, once we start moving pieces of code *between* levels abstractions or from 
-higher levels of abstraction into a lower level, this is when consistently 
-well-named receivers make a huge difference.
-
-Imagine taking this snippet from a higher-level container like `Room` which 
-holds groups of users in a server, and moving it up or down one level:
+For example, consider moving pieces of code *between* levels abstractions or 
+from higher levels of abstraction into a lower level. Imagine taking this 
+snippet from a higher-level container like `Room` which holds groups of users in 
+a server, and moving it up or down one level:
 
 ```go
 func (this *Room) Announce() {
@@ -172,7 +166,8 @@ catch (or maybe not, if the interfaces happen to be compatible). Even bugs
 aside, having to edit all the little innards does make moving code around more 
 tedious.
 
-On the other hand:
+Moving across levels of abstraction is a great example of when consistently 
+well-named receivers make a huge difference:
 
 ```go
 func (room *Room) Announce() {
@@ -197,7 +192,9 @@ This is a great little pattern to keep everything working despite moving between
 layers of abstraction. Note how the inner code stays identical and all we're 
 doing is sometimes adding a little extra context outside of it.
 
-As projects mature, this kind of refactoring happens surprisingly often.
+As projects mature, this kind of refactoring happens surprisingly often. We're 
+talking about just one line in this example, but the same applies for larger 
+chunks too.
 
 The suggested strategy for naming Go receivers is the same strategy for naming 
 normal local variables. If they're named similarly, then these code blocks can 
