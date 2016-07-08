@@ -94,7 +94,7 @@ In other languages where `this` and `self` is a thing (Python, Ruby, JavaScript,
 and so on) it's a much more complicated situation. These are not vanilla local 
 variables wearing fancy pants. The thing we might expect `this` to represent 
 inside of a method could actually represent something very different once 
-inheretance or metaclasses had their way. In effect, it might not make any sense 
+inheritance or metaclasses had their way. In effect, it might not make any sense 
 to give contextual names like `srv` rather than `self` in Python, but it 
 definitely makes sense in Go.
 
