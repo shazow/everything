@@ -120,7 +120,7 @@ methods could use the same receiver. Any time we see `this` in the code, we'll
 will be GREAT!.. or will it?
 
 What if we refactor the code and `this` is no longer referring to the same thing 
-as before? And are we also giving up valuable semantic meaning?
+as before? And are we giving up valuable semantic meaning?
 
 
 ### Reshaping our code
