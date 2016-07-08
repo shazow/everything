@@ -53,27 +53,6 @@ effectively the same variable as `myServer`. They're both references to the same
 `Server` instance.
 
 
-## Naming the receiver
-
-In a lot of Go code, it's common to use the first letter or a short abbreviation 
-as the name of the receiver. If the name of the struct is `Server`, we'll 
-usually see `s` or `srv` or even `server`. All of these are fine.
-
-But why not `self` or `this`? Coming from Python, or Ruby, or JavaScript, it's 
-tempting to do something like:
-
-```go
-func (this *Server) Close() error {
-    ...
-}
-```
-
-That's one less decision to make every time we declare a struct. *All* of our 
-methods could use the same receiver. Any time we see `this` in the code, we'll 
-*know* that we're talking about the receiver, not some random local variable. It 
-will be GREAT!.. or will it?
-
-
 ## Facts about methods and receivers
 
 While we can call a method on a type instance and get the receiver implicitly, 
@@ -118,6 +97,30 @@ inside of a method could actually represent something very different once
 inheretance or metaclasses had their way. In effect, it might not make any sense 
 to give contextual names like `srv` rather than `self` in Python, but it 
 definitely makes sense in Go.
+
+
+## Naming the receiver
+
+In a lot of Go code, it's common to use the first letter or a short abbreviation 
+as the name of the receiver. If the name of the struct is `Server`, we'll 
+usually see `s` or `srv` or even `server`. All of these are fine.
+
+But why not `self` or `this`? Coming from Python, or Ruby, or JavaScript, it's 
+tempting to do something like:
+
+```go
+func (this *Server) Close() error {
+    ...
+}
+```
+
+That's one less decision to make every time we declare a struct. *All* of our 
+methods could use the same receiver. Any time we see `this` in the code, we'll 
+*know* that we're talking about the receiver, not some random local variable. It 
+will be GREAT!.. or will it?
+
+What if we refactor the code and `this` is no longer referring to the same thing 
+as before? And are we also giving up valuable semantic meaning?
 
 
 ## Reshaping our code
