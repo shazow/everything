@@ -9,6 +9,14 @@ many instances of. Further, we can attach methods to these types and they
 kind-of start looking like the classes we’re used to. When we attach a method
 to a type, the receiver is the instance of the type for which it was called.
 
+Choosing the name of a receiver is not always a trivial task. Should we be lazy 
+and name them all the same (like `this` or `self`)? Or treat them not unlike 
+local variables by abbreviating the type (like `srv` to a `Server`type )? Or 
+maybe something even more nuanced?
+
+And what are the consequences? How will our code suffer if we choose one 
+approach over the other? Let's explore.
+
 
 ## Quick refresher on Go structs
 
@@ -40,7 +48,7 @@ myServer := &Server{}
 myServer.Close()
 ```
 
-In this case, the `s` that is referenced inside of the `myServer.Close()` is 
+In this case, the `srv` that is referenced inside of the `myServer.Close()` is 
 effectively the same variable as `myServer`. They're both references to the same 
 `Server` instance.
 
@@ -73,7 +81,7 @@ it can also be called explicitly:
 
 ```go
 myServer := &Server{}
-Server.Name(myServer)
+Server.Name(myServer) // same as myServer.Name()
 (*Server).Close(&myServer)
 ```
 
@@ -93,7 +101,7 @@ func (byReference *Server) Bye() { ... }
 ```
 
 This is to illustrate that struct methods in Go are merely thin sugar over 
-traditional C-style struct helper declarations, an equivalent C method might 
+traditional C-style struct helper declarations. An equivalent C method might 
 look like this:
 
 ```c
@@ -108,8 +116,9 @@ and so on) it's a much more complicated situation. These are not vanilla local
 variables wearing fancy pants. The thing we might expect `this` to represent 
 inside of a method could actually represent something very different once 
 inheretance or metaclasses had their way. In effect, it might not make any sense 
-to give contextual names to `self` in Python, but it definitely makes sense in 
-Go.
+to give contextual names like `srv` rather than `self` in Python, but it 
+definitely makes sense in Go.
+
 
 ## Reshaping our code
 
@@ -127,31 +136,6 @@ well-named receivers make a huge difference.
 
 Imagine taking this snippet from a higher-level container like `Room` which 
 holds groups of users in a server, and moving it up or down one level:
-
-```go
-func (room *Room) Announce() {
-    srv := room.Server()
-    for _, c := range srv.Clients() {
-        // Send announcement to all clients about a new room
-        c.Send(srv.RenderAnnouncement(room))
-    }
-}
-
-// Moved between...
-
-func (srv *Server) AddRoom(room *Room) {
-    for _, c := range srv.Clients() {
-        // Send announcement to all clients about a new room
-        c.Send(srv.RenderAnnouncement(room))
-    }
-}
-```
-
-This is a great little pattern to keep everything working despite moving between 
-layers of abstraction. Note how the inner code stays identical and all we're 
-doing is adding a little extra context outside of it.
-
-On the other hand:
 
 ```go
 func (this *Room) Announce() {
@@ -180,21 +164,47 @@ server or the room as we're moving the code between.
 +       c.Send(srv.RenderAnnouncement(this))
 ```
 
-Yes, this is going to cause some bugs that hopefully the compiler catches (or 
-maybe not, if the interfaces happen to be compatible). More importantly, it 
-makes moving code around more tedious.
+Refactoring this kind of code produce some bugs that the compiler will hopefully 
+catch (or maybe not, if the interfaces happen to be compatible). Even bugs 
+aside, having to edit all the little innards does make moving code around more 
+tedious.
 
+On the other hand:
 
-## Should receivers be special?
+```go
+func (room *Room) Announce() {
+    srv := room.Server()
+    for _, c := range srv.Clients() {
+        // Send announcement to all clients about a new room
+        c.Send(srv.RenderAnnouncement(room))
+    }
+}
+
+// Moved between...
+
+func (srv *Server) AddRoom(room *Room) {
+    for _, c := range srv.Clients() {
+        // Send announcement to all clients about a new room
+        c.Send(srv.RenderAnnouncement(room))
+    }
+}
+```
+
+This is a great little pattern to keep everything working despite moving between 
+layers of abstraction. Note how the inner code stays identical and all we're 
+doing is sometimes adding a little extra context outside of it.
+
+As projects mature, this kind of refactoring happens surprisingly often.
 
 The suggested strategy for naming Go receivers is the same strategy for naming 
 normal local variables. If they're named similarly, then these code blocks can 
-be moved wholesale between layers of abstraction with minimal hassle.
+be moved wholesale between layers of abstraction with minimal hassle and helps 
+us avoid careless bugs.
 
-On the other hand, by naming receivers as `this` or `self`, we're actually 
-making receivers *special* in a way that is counter-productive. Imagine naming 
-every local variable with the same name, all the time, regardless of what it 
-represents? A scary thought.
+By naming receivers as `this` or `self`, we're actually making receivers 
+*special* in a way that is counter-productive. Imagine naming every local 
+variable with the same name, all the time, regardless of what it represents? A 
+scary thought.
 
 
 ## Advanced naming technique
@@ -214,6 +224,7 @@ func (r *Server) Read(p []byte) (n int, err error) {
     // Receive data from all clients
 }
 ```
+
 Maybe we also want to add the `http.Handler` interface to provide a dashboard 
 for our server.
 
@@ -225,19 +236,19 @@ func (handler *Server) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 
 There are a few benefits to doing it this way:
 
-The receivers enhance the self-documenting nature of our code. It becomes 
-clearer which interface each method is attempting to implement.
+* The receivers enhance the self-documenting nature of our code. It becomes 
+  clearer which interface each method is attempting to implement.
 
-If we were implementing these wrappers outside of the `Server` struct, we would 
-likely be using similarly named variabls for intermediate code. By naming the 
-receiver in a corresponding way, it makes it easier to move the code inline 
-without changing much.
+* If we were implementing these wrappers outside of the `Server` struct, we 
+  would likely be using similarly named variabls for intermediate code. By 
+  naming the receiver in a corresponding way, it makes it easier to move the 
+  code inline without changing much.
 
-Further, as we add interface-specific functionality, it's likely that we'll need 
-to add more fields to our struct to manage various related state. The code can 
-look more meaningful when a read buffer is being accessed from a `r` receiver to 
-imply that its purpose is specifically for this functionality rather than it 
-being a more general buffer for the server as a whole.
+* As we add interface-specific functionality, it's likely that we'll need to add 
+  more fields to our struct to manage various related state. The code can look 
+  more meaningful when a read buffer is being accessed from a `r` receiver to 
+  imply that its purpose is specifically for this functionality rather than it 
+  being a more general buffer for the server as a whole.
 
 
 ## Name of the Receiver
@@ -253,5 +264,3 @@ like mixing up context when code gets moved around. It removes a decision during
 writing, but the cost creeps up when we go back to read the code or refactor it.
 
 Go forth and give your receivers the names they deserve.
-
-
