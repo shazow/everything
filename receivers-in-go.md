@@ -39,7 +39,7 @@ It's a type that holds information about our server, like a `net.Listener`
 socket, and it has a `Close()` method that shuts down the server. Easy enough.
 
 The *receiver* of the `Close()` method is the `(srv *Server)` part. This says 
-that inside of the `Close()` method declaration, the scope will have an `s` 
+that inside of the `Close()` method declaration, the scope will have a `srv` 
 variable that is a reference to the instance of the `Server` that it's being 
 called on.  That is:
 
