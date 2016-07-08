@@ -53,7 +53,7 @@ effectively the same variable as `myServer`. They're both references to the same
 `Server` instance.
 
 
-## Facts about methods and receivers
+### Facts about Go methods and receivers
 
 While we can call a method on a type instance and get the receiver implicitly, 
 it can also be called explicitly:
@@ -123,7 +123,7 @@ What if we refactor the code and `this` is no longer referring to the same thing
 as before? And are we also giving up valuable semantic meaning?
 
 
-## Reshaping our code
+### Reshaping our code
 
 As we start refactoring our code, we take a chunk of code that is already 
 functional and put it in another context where it allows for more flexibility 
