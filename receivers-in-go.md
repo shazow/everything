@@ -101,9 +101,9 @@ definitely makes sense in Go.
 
 ## Naming the receiver
 
-In a lot of Go code, it's common to use the first letter or a short abbreviation 
-as the name of the receiver. If the name of the struct is `Server`, we'll 
-usually see `s` or `srv` or even `server`. All of these are fine.
+As we write idiomatic Go code, it's common to use the first letter or a short 
+abbreviation as the name of the receiver. If the name of the struct is `Server`, 
+we'll usually see `s` or `srv` or even `server`. All of these are fine.
 
 But why not `self` or `this`? Coming from Python, or Ruby, or JavaScript, it's 
 tempting to do something like:
