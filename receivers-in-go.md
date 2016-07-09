@@ -11,7 +11,7 @@ to a type, the receiver is the instance of the type for which it was called.
 
 Choosing the name of a receiver is not always a trivial task. Should we be lazy 
 and name them all the same (like `this` or `self`)? Or treat them not unlike 
-local variables by abbreviating the type (like `srv` to a `Server`type )? Or 
+local variables by abbreviating the type (like `srv` to a `Server` type )? Or 
 maybe something even more nuanced?
 
 And what are the consequences? How will our code suffer if we choose one 
@@ -103,10 +103,12 @@ definitely makes sense in Go.
 
 As we write idiomatic Go code, it's common to use the first letter or a short 
 abbreviation as the name of the receiver. If the name of the struct is `Server`, 
-we'll usually see `s` or `srv` or even `server`. All of these are fine.
+we'll usually see `s` or `srv` or even `server`. All of these are fine—short is 
+convenient, but it's more about uniquely identifying the variable in a 
+consistent way.
 
-But why not `self` or `this`? Coming from Python, or Ruby, or JavaScript, it's 
-tempting to do something like:
+Why not `self` or `this`? Coming from languages like Python, or Ruby, or 
+JavaScript, it's tempting to do something like:
 
 ```go
 func (this *Server) Close() error {
