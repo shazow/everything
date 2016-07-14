@@ -59,7 +59,7 @@ While we can call a method on a type instance and get the receiver implicitly,
 it can also be called explicitly:
 
 ```go
-myServer := &Server{}
+myServer := Server{}
 Server.Name(myServer) // same as myServer.Name()
 (*Server).Close(&myServer) // same as myServer.Close()
 ```
