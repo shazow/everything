@@ -1,3 +1,8 @@
++++
+title = "Considering job offers? A checklist in alphabetical order"
+date = "2011-12-30 17:38:28 -0800"
++++
+
 # Considering job offers? A checklist in alphabetical order
 
 ![Celebrating your job offer](http://shazow.net/images/blog/ballpit.jpg)

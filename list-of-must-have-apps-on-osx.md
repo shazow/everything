@@ -1,3 +1,9 @@
++++
+title = "List of must-have apps on OSX"
+date = "2011-12-30 14:13:55 -0800"
++++
+
+
 # List of must-have apps on OSX
 
 Or, first things I install when I nest into a fresh Apple computing device:
